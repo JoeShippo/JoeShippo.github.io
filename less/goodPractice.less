@@ -1,0 +1,52 @@
+/********* 
+********* 
+    Good Practice Page Styles 
+********* 
+*********/
+.gpPage {
+    text-align: center;
+    .examples {
+        padding-bottom: 0px;
+        .imgResponsive {
+            height: 175px;
+        }
+        a {
+            color: @charcoal;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+            &:hover,
+            :active,
+            :visited {
+                text-decoration: none;
+                color: @gold;
+            }
+        }
+        .btn {
+            .button;
+            border-color: @charcoal;
+            background-color: @charcoal; 
+            display: inline-block;
+            &:hover,
+            :active,
+            :visited {
+                text-decoration: none;
+                color: @white;
+                background-color: @gold;
+                border-color: @gold;
+            }
+        }
+    }  
+    .application {
+        .col-12 {
+            padding: 0 15px;
+            h2 {
+                margin-top: 0px;
+            }
+            p {
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}

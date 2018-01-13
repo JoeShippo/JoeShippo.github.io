@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--META Setup-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Joe Shipton Portfolio">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Student">
+    <meta name="author" content="Joe Shipton">
+
+    <!--Favicons Setup-->
+    <link rel="shortcut icon" href="favicon.ico" />    
+    <link rel="apple-touch-icon-precomposed" href="apple-favicon.png" />
+    
+    <!--Title-->
+    <title>Good Practice! | Joe Shipton</title>
+
+    <!--Link to any style sheets-->
+    <link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+<body>
+    <!--Navigation - Off canvas -->
+    <ul class="navigation">
+        <li class="navItem"><a href="index.html">Home</a></li>
+        <li class="navItem"><a href="glossary.html">Web Terms</a></li>
+        <li class="navItem"><a href="jobs.html">Web Jobs</a></li>
+        <li class="navItem"><a href="resources.html">Resources</a></li>
+        <li class="navItem"><a class="currentPage" href="goodPractice.html">Good Practice</a></li>
+        <li class="navItem"><a href="reflection.html">Reflection</a></li>
+        <li class="navItem">
+            <a href="https://www.linkedin.com/in/joe-shipton-037441154/" class="navIcons" title="Linkedin">
+                <i class="fab fa-linkedin fa-1x"></i>
+            </a>       
+            <a href="https://twitter.com/JoeShippo" class="navIcons" title="Twitter">
+                <i class="fab fa-twitter fa-1x"></i>
+            </a>    
+            <a href="https://www.instagram.com/mr_shippo/" class="navIcons" title="Instagram">
+                <i class="fab fa-instagram fa-1x"></i>
+            </a>
+        </li>
+    </ul>
+    <!--Navigation trigger -->
+    <input type="checkbox" id="navTrigger" class="navTrigger" />
+    <label for="navTrigger"></label> <!--CSS contains the SVG background image -->
+
+    <div class="siteWrap">            
+        <!--Header Section-->
+        <div class="header">
+            <div class="heroContent">
+                <div class="logo-container">
+                        <img src="assets/logo.svg" alt="Joe Shipton" class="logoHeader">
+                </div>
+                <div class="intro">
+                    <h1>OOOOO!! AAAAAAH!!</h1>
+                </div>
+                <div class="learnMoreBtn">
+                    <a href="#GPsection" class="">This way for good practice<i class="fa fa-angle-down fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!--Good practice Section 
+        -->
+        <div class="gpPage container" id="GPsection">
+            <div class="row examples">
+                <div class="col-4">
+                    <a href="http://luchohler.com/">
+                        <img class="imgResponsive" src="assets/gp/lucHohler.png" title="luchohler.com" alt="luchohler.com" />
+                    </a>
+                    <a href="http://luchohler.com/"><h1>Luc Hohler</h1></a>
+                    <p>A minimalistic design with bright colours and bold typography, Luc Hohler's fun play on a fairly basic site makes his design clean and inspirational. His fun sketch of the character in the hero played its part in my design. </p>
+                    <a href="http://luchohler.com/" class="btn">Learn More</a>
+                </div>
+                <div class="col-4">
+                    <a href="http://www.salleedesign.com/home/">
+                        <img class="imgResponsive" src="assets/gp/salleeDesign.png" title="salleedesign.com" alt="salleedesign.com" />
+                    </a>
+                    <a href="http://www.salleedesign.com/home/"><h1>Sallee Design</h1></a>
+                    <p>The minimal design and simplistic technologies behind this piece is what catches the eye. I was intrigued to know more from the offset and this is the main reason this is a model of good practice. The 100vh hero image was the inspiration behind my site.</p>
+                    <a href="http://www.salleedesign.com/home/" class="btn">Learn More</a>
+                </div>
+                <div class="col-4">
+                    <a href="https://bert.house/en/">
+                        <img class="imgResponsive" src="assets/gp/helloBert.png" title="bert.house" alt="bert.house" />
+                    </a>
+                    <a href="https://bert.house/en/"><h1>Bert</h1></a>
+                    <p>The studio's single-page case studies are a joy to look at, packed with punchy imagery interspersed with informative chunks of text. Modern designs are beginning to have bold and bright typography - something that Bert captures instantly.</p>
+                    <a href="https://bert.house/en/" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="row application">
+                <div class="col-12">
+                    <h2>Lets apply this</h2>
+                    <p>Being a minimalist I found it would be essential for me to find current examples that were simple but straight to the point and as you can see from the above examples all three designs are very basic and play a role in my design and indeed my final product. </p>
+                    <p>All three designs are clean and have a lot of whitespace which as a user makes the website very easy to navigate and I don’t feel suffocated by content. In terms of user experience all the examples all make the user feel relaxed and intrigued by the what they are viewing. From a developer’s perspective, having a clean layout makes the web page very quick and slick. The use of strong background colours or images fill the page and look outstanding on modern displays. I tried to keep my designs uncluttered, by using a maximum of a three-column layout and a container with the max-width of 1170px.</p>
+                    <p>Another feature they all adopt is a simple and minimal navigation something as you can see is applied in my design. From Google’s Material Design and from general research it was often the case that web pages didn’t contain the conventional navigation bars. Instead the menus were hidden and were accessed through a button and in the case of the design for Luc Hohler, Bert and then my own design a ‘burger’ icon was used. The kept the pages clean responsive and allowed more content space.</p>
+                    <p>The typography on all three pages was a personal favourite of mine. I’d liked the bold and large type of Bert and Luc Hohler using them as the inspiration behind the hero text you can find on all my pages. I particularly liked the full screen hero you can find on all three and by using the 100vh CSS snippet I was able to achieve the same effect. </p>
+                    <p>After completing my initial research, I then proceeded to create basic wireframes sketches these enabled me to see the basic overview of my design and then develop them into more concise mock-ups using Photoshop. On Photoshop, I like to design from mobile up. Due to the basic design, I found it was suitable to have 2 different breakpoints; one for mobile and one for larger devices. On any device smaller than 768 pixels the web page would become a one column full width page; if the device was larger than 768, it would make use of the column layout I developed.</p>
+                    <p>Minimalism is at the heart of my research and is becoming increasingly popular with modern webpages. I also found that columns layouts are becoming more and more popular especially with the continuous development of frameworks like Foundation and Bootstrap.  By designing my own column layout and basic container I was able to quickly develop responsive layouts.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Wireframe Modal Content -->
+        
+
+        <!--Contact Section
+            ==> Note that due to the lack of server functionality the form isn't submittable, in the presence of an active server then the form would have full functionality
+        -->
+        <div id="contact">
+            <div class="row contactHeading">
+                <h1>Let's Talk</h1>
+            </div>
+            <div class="row formSection">
+                <form>
+                    <div class="col-6">
+                        <input type="text" id="inpuName" placeholder="Name">
+                        <input type="email" id="inputEmail" placeholder="Email address">
+                        <input type="text" id="inputSubject" placeholder="Subject">
+                    </div>
+                    <div class="col-6 ">
+                        <textarea name="message" id="inputMessage" placeholder="What's Up?"></textarea>
+                    </div>  
+                    <div class="col-12">
+                        <input class="btn" type="submit" value="SEND" id="input-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer class="footer">
+            <div class="row footerLogoContainer">
+                <div class="col-12">
+                    <img src="assets/logo.svg" alt="Joe Shipton" class="logoFooter">
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-12">
+                    <p>Handmade by me &copy; 2017</p>
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col-12">
+                    <div class="fa-icons">
+                        <a href="https://www.linkedin.com/in/joe-shipton-037441154/" title="Linkedin">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>                        
+                        <a href="https://twitter.com/JoeShippo" title="Twitter">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>                        
+                        <a href="https://www.instagram.com/mr_shippo/" title="Instagram">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                    </div>                            
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--External JS Sources -->
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <!--Font Awesome 5, Developer's preview. Credit FA - https://fontawesome.com/ -->
+    <script defer src="js/plugins/fa/everything.min.js"></script>
+    <script defer src="js/plugins/fa/fontawesome.min.js"></script>
+    <!--Lightbox2.js Credit:Lokesh Dhakar - http://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="js/plugins/lightbox.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

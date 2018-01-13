@@ -1,0 +1,80 @@
+/********* 
+********* 
+    Jobs Page Styles 
+********* 
+*********/
+.jobsPage {
+    .col-4 {
+        padding: 15px 30px;
+        &:nth-child(2) {
+            // box-shadow: 0px 5px 34px 3px @charcoal;
+            // border-radius: 5px;
+            // background-color: @gold;
+            box-shadow: 0px 5px 31px -3px rgba(86,104,135,0.16); 
+            background-color: #FEFEFF;
+            border-top: 6px solid @gold;
+            border-radius: 5px;
+            @media only screen and (max-width: 768px) {
+                padding-bottom: 50px;
+                box-shadow: none;
+                border-radius: 0;
+                background-color: @white;
+                border: 0px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            padding:15px;
+            &:nth-child(1) {
+                padding-bottom: 50px;
+                padding-top: 0px;
+            }
+        }
+    }
+    text-align: center;
+    img {
+        margin: 0 auto;
+        max-height: 80px;
+    }
+    h3 {
+        margin: 0px;
+    }
+    h2 {
+        margin-bottom: 0px;
+    }
+    ul {
+        li {
+            text-align: left;
+        }
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .btn {
+        .button;
+        border-color: @charcoal;
+        background-color: @charcoal;
+        display: inline-block;
+        &:hover,
+        :active,
+        :visited {
+            text-decoration: none;
+            color: @white;
+            background-color: @gold;
+            border-color: @gold;
+        }
+    }
+    .jobSummary {
+        padding-top:0px;
+        .col-12 {
+            padding: 0 15px;
+            h2 {
+                margin-top: 0px;
+            }
+            p {
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        
+    }
+}
